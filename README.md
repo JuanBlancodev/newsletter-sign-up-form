@@ -47,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/frontend-mentor-newsletter-signup-form-with-success-message-rjYKKnuy5X)
 - Live Site URL: [Demo](https://juanblancodev.github.io/newsletter-sign-up-form)
 
 ## My process
