@@ -9,7 +9,7 @@ const Container = styled.div`
   overflow: hidden;
 
   @media (width >= 800px){
-    width: 550px;
+    width: 400px;
     height: 570px;
     grid-column: 2 / -1;
   }
