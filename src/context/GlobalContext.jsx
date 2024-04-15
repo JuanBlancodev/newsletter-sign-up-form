@@ -4,15 +4,19 @@ import PropTypes from 'prop-types'
 const GlobalContext = createContext()
 
 const GlobalContextProvider = ({ children }) => {
-  const [suscription, setSuscription] = useState({
+  const initialSuscription = {
     state: false,
     email: ''
-  })
+  }
+  const [suscription, setSuscription] = useState(initialSuscription)
+
+  const resetSuscription = () => setSuscription(initialSuscription)
 
   return (
     <GlobalContext.Provider value={{
       suscription,
-      setSuscription
+      setSuscription,
+      resetSuscription
     }}>
       { children }
     </GlobalContext.Provider>

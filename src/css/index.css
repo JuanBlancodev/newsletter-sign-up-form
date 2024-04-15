@@ -4,6 +4,7 @@
   --font-main: "Roboto", sans-serif;
 
   --font-size-paragraph: 16px;
+  --font-size-large: 2.3em;
 
   --weight-normal: 400;
   --weight-bold: 700;
@@ -44,6 +45,10 @@ p{
 /* Font Size */
 .fs-normal{
   font-size: var(--font-size-paragraph);
+}
+
+.fs-large{
+  font-size: var(--font-size-large);
 }
 
 /* Colors */
