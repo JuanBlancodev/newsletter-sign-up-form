@@ -41,6 +41,11 @@ p{
   font-weight: var(--weight-bold);
 }
 
+/* Font Size */
+.fs-paragraph{
+  font-size: var(--font-size-paragraph);
+}
+
 /* Colors */
 .color-primary{
   color: var(--color-primary);
