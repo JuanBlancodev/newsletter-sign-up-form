@@ -8,17 +8,18 @@ const Container = styled.div`
   height: 284px;
   overflow: hidden;
 
-  @media (width >= 800px){
+  background-image: url(${(props) => props.image});
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0 0 10px 10px;
+
+  @media (width >= 700px){
     width: 400px;
     height: 570px;
-    grid-column: 2 / -1;
+    background-position: right;
+    border-radius: 10px;
   }
-`
-
-const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 `
 
 const Ilustration = () => {
@@ -27,7 +28,7 @@ const Ilustration = () => {
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      setImageWidth(width > 200 ? 400 : 200);
+      setImageWidth(width);
     };
   
     handleResize();
@@ -39,9 +40,7 @@ const Ilustration = () => {
   }, [])
 
   return (
-    <Container>
-      <Img src={imageWidth > 800 ? ilustrationDesktop : ilustrationMobile} />
-    </Container>
+    <Container image={imageWidth > 560 ? ilustrationDesktop : ilustrationMobile} />
   )
 }
 

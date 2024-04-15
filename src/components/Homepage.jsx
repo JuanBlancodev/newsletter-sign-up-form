@@ -7,8 +7,8 @@ const Wrapper = styled.div`
   background-color: var(--color-white);
   height: 100%;
 
-  @media (width >= 800px){
-    width: 800px;
+  @media (width >= 700px){
+    width: 700px;
     height: 600px;
     margin: 50px auto;
 
@@ -16,7 +16,16 @@ const Wrapper = styled.div`
     border-radius: 30px;
 
     display: flex;
+    gap: 40px;
     flex-direction: row-reverse;
+  }
+
+  @media (width >= 800px){
+    width: 800px;
+  }
+
+  @media (width => 1024px){
+    width: 900px;
   }
 `
 
