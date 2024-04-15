@@ -15,7 +15,7 @@ const Li = styled.li`
 const ListItem = ({ text }) => {
   return (
     <Li 
-      className='color-dark-slate-grey fs-paragraph'>
+      className='color-dark-slate-grey fs-normal'>
         <img src={iconList} />
         { text }
     </Li>

@@ -42,7 +42,7 @@ p{
 }
 
 /* Font Size */
-.fs-paragraph{
+.fs-normal{
   font-size: var(--font-size-paragraph);
 }
 
@@ -65,4 +65,19 @@ p{
 
 .color-white{
   color: var(--color-white);
+}
+
+
+/* Button */
+.btn{
+  background-color: var(--color-charcoal-grey);
+  border: none;
+  border-radius: 10px;
+
+  padding: 20px 15px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to right, #d72198 0%, var(--color-primary) 70%, var(--color-primary) 100%);
 }

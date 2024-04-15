@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import ilustrationMobile from '../assets/illustration-sign-up-mobile.svg'
 
-const Container = styled.section`
+const Container = styled.div`
   width: 100%;
   height: 284px;
   overflow: hidden;
