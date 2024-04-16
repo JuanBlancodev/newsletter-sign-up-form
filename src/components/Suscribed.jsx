@@ -44,7 +44,7 @@ const Suscribed = () => {
     <Wrapper>
       <Content>
         <Header>
-          <img src={iconSuccess} />
+          <img src={iconSuccess} alt='check' />
           <h1 className='fs-large color-charcoal-grey'>Thanks for subscribing!</h1>
         </Header>
         <Section className='color-dark-slate-grey'>

@@ -16,7 +16,7 @@ const ListItem = ({ text }) => {
   return (
     <Li 
       className='color-dark-slate-grey fs-normal'>
-        <img src={iconList} />
+        <img src={iconList} alt='check-list' />
         { text }
     </Li>
   )
